@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>float and clear</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <style>
+  .container{
+     border: 10px solid blue;;
+     width: 100%;
+    box-sizing: border-box;
+     margin: auto;
+     font-family: 'Ubuntu', sans-serif;
+  }
+  .item{
+   border: 2px solid  rgb(16, 98, 139);
+   margin: 5px 10px;
+   padding: 5px 5px;
+   background-color: rgba(71, 105, 47, 0.692);
+  }
+  #fruit{
+   float: left;
+   width: 45%;
+  }
+  #computer{
+   float: right;
+   width: 45%;
+  }
+  #stationary{
+   clear: both;
+   width: 96%;
+  }
+ </style>
+</head>
+
+<body>
+ <div class="container">
+  <div id="fruit" class="item">
+   <h3>Fruit</h3>
+   <p class="fruitpara">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quod unde aut praesentium nam recusandae magnam, quam
+    dolore laudantium, molestiae distinctio laborum sapiente aperiam at ad velit aliquam ipsam voluptas?
+   </p>
+  </div>
+  <div id="computer" class="item">
+   <h3>Computer</h3>
+   <p class="computerpara">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quod unde aut praesentium nam recusandae magnam, quam
+    dolore laudantium, molestiae distinctio laborum sapiente aperiam at ad velit aliquam ipsam voluptas?
+   </p>
+  </div>
+  <div id="stationary" class="item">
+   <h3>Stationary</h3>
+   <p class="stationarypara">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quod unde aut praesentium nam recusandae magnam, quam
+    dolore laudantium, molestiae distinctio laborum sapiente aperiam at ad velit aliquam ipsam voluptas?
+   </p>
+  </div>
+ </div>
+</body>
+</html>
